@@ -1,4 +1,4 @@
-package rmi_test;
+// package rmi_test;
 import java.rmi.*;
 
 public class helloClient {

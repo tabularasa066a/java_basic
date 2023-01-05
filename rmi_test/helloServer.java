@@ -1,4 +1,4 @@
-package rmi_test;
+// package rmi_test;
 import java.rmi.*;
 
 public class helloServer {
@@ -14,6 +14,8 @@ public class helloServer {
       // レジストリサーバに登録（再登録）
       Naming.bind("//localhost/hello", hello);
 //    Naming.rebind("//localhost/hello", hello);
+
+      System.out.println("Listening...");
 
     } catch(Exception ex) {
       ex.printStackTrace();
